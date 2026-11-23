@@ -1,0 +1,31 @@
+/* Re-usable CSS values */
+/* This helps increase consistency in design */
+
+:root {
+
+    /* Colors */
+    --color-primary : #01b875;
+    --color-secondary : #009a1fdf;
+    --color-text : rgb(225, 225, 225);
+    --color-muted : #a5a5a5;
+    --color-background : black;
+    --color-surface : #0e0e0e;
+    --color-border : #ebff89;
+    
+    /* Typography */
+    --font-primary : 'Inter', sans-serif;
+
+    --text-sm : 0.85rem;
+    --text-base : 1rem;
+    --text-lg : 1.25rem;
+    --heading-lg : clamp(2.2rem, 5vw, 4rem);
+
+    /* Layout */
+    --container-width : 1200px;
+    --section-spacing: 65px;
+    --radius : 5px;
+
+    /* Effects */
+    --shadow : 0 8px 25px rgba(171, 171, 171, 0.6);
+    --transition: 0.25s ease;
+}
